@@ -9,7 +9,7 @@ public class TestProperties {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		
+		//Properties files are loaded here
 		Properties config=new Properties();
 		Properties or=new Properties();
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\Config.properties");
